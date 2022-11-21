@@ -1,0 +1,28 @@
+// C++ code
+//
+void setup()
+{
+  pinMode(3, OUTPUT);
+}
+
+void loop()
+{
+  
+  tone(3, 200);
+  delay(100); // Wait for 1000 millisecond(s)
+  
+  tone(3, 400);
+  delay(100); // Wait for 1000 millisecond(s)
+  
+  tone(3, 600);
+  delay(100); // Wait for 1000 millisecond(s)
+  
+  tone(3, 800);
+  delay(100); // Wait for 1000 millisecond(s)
+  
+  tone(3, 1000);
+  delay(100); // Wait for 1000 millisecond(s)
+  
+  noTone (3);
+  delay(1000); // Wait for 1000 millisecond(s)  
+}
